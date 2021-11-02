@@ -55,7 +55,6 @@ def valideaza_pachet(pachet):
         raise Exception(err)
 
 
-
 def get_data_i(pachet):
     # functie care returneaza data de inceput a pachetului pachet
     # input: pachet - un pachet

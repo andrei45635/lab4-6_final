@@ -7,7 +7,8 @@ from domain.pachet import get_data_i
 from domain.pachet import get_data_s
 from domain.pachet import get_destinatie
 from domain.pachet import get_pret
-from validation.validare import valideaza_pachet
+from domain.pachet import valideaza_pachet
+
 
 def test_srv_adauga_pachet_in_lista():
     l = []
