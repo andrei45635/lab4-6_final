@@ -1,7 +1,8 @@
 •	Enunț: 
   Agenție de turism
 o	Creați o aplicație pentru gestiunea pachetelor de călătorie oferite de o agenție de turism. Aplicația stochează pachete de călătorie oferite clienților după cum urmează: data de început și cea de sfârșit a călătoriei, destinația și prețul. Aplicația va permite: 
-	1. Adăugare 
+	
+  1. Adăugare 
 
 •	Adaugă pachet de călătorie  
 
@@ -31,7 +32,7 @@ o	Creați o aplicație pentru gestiunea pachetelor de călătorie oferite de o a
 
 •	Tipărirea mediei de preț pentru o destinație dată V
 
-	5. Filtrare 
+  5. Filtrare 
 
 •	Eliminarea ofertelor care au un preț mai mare decât cel dat și o destinație diferită de cea citită de la tastatură V
 
