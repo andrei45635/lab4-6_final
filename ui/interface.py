@@ -24,6 +24,7 @@ def ui_eliminare_pret_dest(l, lst_m):
         pret_input = float(input("Introduceti pretul aici: "))
     except ValueError:
         print("pret introdus gresit!")
+        return
     eliminare_pret_dest(l, dest_input, pret_input, lst_m)
     print_lst_m(lst_m)
 
@@ -34,6 +35,7 @@ def ui_cauatare_pret_dest(l, lst_n):
         pret_input = float(input("Introduceti pretul aici: "))
     except ValueError:
         print("pret introdus gresit!")
+        return
     cautare_pret_dest(l, pret_input, dest_input, lst_n)
     print_lst_n(lst_n)
 
@@ -46,6 +48,7 @@ def ui_cautare_valid(l, lst_n):
         data_s_user = datetime.datetime.strptime(data_s_user, "%d-%m-%Y").date()
     except ValueError:
         print("date numerice invalide!")
+        return
     cautare_pachet_valid(l, data_i_user, data_s_user, lst_n)
     print_lst_n(lst_n)
 
@@ -159,6 +162,7 @@ def ui_tiparire_pachete_perioada_pret(l,lst_nou):
             data_s_user = datetime.datetime.strptime(data_s_user, "%d-%m-%Y").date()
         except ValueError:
             print("date numerice invalide!")
+            return
     tiparire_pachete_perioada_pret(l, data_i_user, data_s_user,lst_nou)
     print_lst_nou(lst_nou)
 

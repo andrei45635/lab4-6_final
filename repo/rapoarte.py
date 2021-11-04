@@ -31,6 +31,7 @@ def numar_oferte(l):
 
 
 def tiparire_pachete_perioada_pret(l, data_i_user, data_s_user, lst_nou):
-    # functie care returneaza pachetele disponibile intr-o anumita perioada citita de la tastatura in ordinea crescatoare a pretului
+    # functie care returneaza pachetele disponibile intr-o anumita perioada citita de la tastatura in ordinea
+    # crescatoare a pretului
     lst = [pachet for pachet in l if (get_data_i(pachet) >= data_i_user and get_data_s(pachet) <= data_s_user)]
     lst_nou.append(sorted(lst, key=lambda x: x[3]))
